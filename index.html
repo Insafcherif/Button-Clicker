@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Dojonary</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="title1">Dojonary</h1>
+        <input type="text" name="Search" placeholder="Search" id="Search" />
+        <button class="btn" onclick="logout(this)">Login</button>
+      </header>
+      <main class="main">
+        <div class="Box">
+          <div class="Box1">
+            <div class="partie1">
+              <div class="text">
+                <h1 class="title1">ninja</h1>
+                <h3>noun</h3>
+                <p>plurat ninjas</p>
+              </div>
+              <button class="btnLike" onclick="liked()"> 13 likes</button>
+            </div>
+            <div class="partie2">
+              <p>
+                A parctitioner skilled in the <br />
+                <a href="" target="_blank">Japanese</a> art of
+                <a href="" target="_blank">ninjutsu</a>
+              </p>
+            </div>
+          </div>
+          <div class="Box1">
+            <div class="partie1">
+              <div class="text">
+                <h1 class="title1">ninja</h1>
+                <h3>noun</h3>
+                <p>plurat ninjas</p>
+              </div>
+              <button id="1"class="btnLike" onclick="alert('Ninja was liked')"> 37 likes</button>
+            </div>
+            <div class="partie2">
+              <p>
+                A <a href="" target="_blank">programmer</a> who breaks<br />
+                down problems with <a href="" target="_blank">zen</a>-like
+                <br />
+                focus
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box3">
+            <h2 class="title1">Dojonary is <br> defined by YOU</h2>
+            <button class="add" onclick="remv(this)">Add definition</button>
+        </div>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
